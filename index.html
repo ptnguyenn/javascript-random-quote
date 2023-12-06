@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random Quote</title>
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/bg-image-random-quote.svg" />
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="quote-card">
+				<div class="info">
+					<div id="author"></div>
+					<div id="tags"></div>
+				</div>
+
+				<blockquote class="blockquote">
+					<p>loading...</p>
+				</blockquote>
+			</div>
+			<div class="icons">
+				<button type="button" class="button">
+					<img
+						src="./assets/Regroup.svg"
+						alt="regroup icon to get a new random quote" />
+				</button>
+				<button type="button" class="copy">
+					<img
+						src="./assets/link.svg"
+						alt="horizontal link icon to copy quote to clipboard" />
+				</button>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

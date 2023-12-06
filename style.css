@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+:root {
+	--light-blue: #6466e9;
+	--navy-blue: #111729;
+	--grey-blue: #20293a;
+	--grey: #4a5567;
+	--very-dark-blue: #030616;
+	--light-grey: #919cae;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: var(--navy-blue);
+	color: #ffffff;
+	font-family: "Outfit", sans-serif;
+}
+
+.container {
+	text-align: center;
+	flex-direction: column;
+}
+
+.quote-card {
+	background: var(--grey-blue) url(./assets/bg-image-random-quote.svg) no-repeat
+		right bottom;
+	border-radius: 0.5rem;
+	height: fit-content;
+	width: 65vh;
+	padding: 1.5rem 1.5rem 2rem;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+
+#author {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#tags {
+	color: var(--light-blue);
+	font-size: 0.625rem;
+	margin-top: 1rem;
+	border: 1px solid var(--light-blue);
+	border-radius: 100vw;
+	width: 50%;
+	padding: 0.3rem;
+}
+
+.blockquote p {
+	font-size: 1.5rem;
+	color: var(--light-grey);
+}
+
+.icons {
+	padding: 1rem;
+}
+
+.icons button {
+	border-radius: 0.5rem;
+	border: 1px solid var(--grey);
+	background-color: var(--navy-blue);
+}
